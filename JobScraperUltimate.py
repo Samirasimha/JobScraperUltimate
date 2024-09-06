@@ -1,6 +1,6 @@
-# # Job Scraper Ultimate
+# Job Scraper Ultimate
 
-# ## Settings
+## Settings
 
 hours = 1  
 sleep_time = 10  
@@ -21,7 +21,7 @@ to_email = ''
 email_smtp = '' 
 
 
-# ## Imports
+## Imports
 
 import smtplib
 from email.mime.multipart import MIMEMultipart
@@ -39,7 +39,7 @@ import requests
 import json
 
 
-# ## Helper Functions 
+## Helper Functions 
 
 
 def getFileName(extraText):
@@ -78,7 +78,7 @@ def load_existing_jobs(file_name):
             return []
     return []
 
-# ## Emailer
+## Emailer
 
 def send_email(file_path, recipient_email):
 
@@ -110,7 +110,7 @@ def send_email(file_path, recipient_email):
 
     print("Email sent successfully!")
 
-# ## Skillsire Scraper
+## Skillsire Scraper
 
 def construct_skillsire_job_url(job_id):
     return f"https://www.skillsire.com/job/jobs-enlisting/all-jobs?jobId={job_id}"
