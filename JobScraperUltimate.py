@@ -160,7 +160,6 @@ def skillSire_scraper(current_jobs):
     # Skillsire API details
 
     skillsire_hours_before = 'p'+ ('24' if hours > 1 else '1') + 'h'
-    print(skillsire_hours_before)
     payload = {"loc":"United States","cc":"us","type":"country","dp":skillsire_hours_before,"query":search_term}
 
     # Fetch jobs from Skillsire
