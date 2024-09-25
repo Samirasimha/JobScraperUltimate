@@ -79,4 +79,4 @@ Feel free to submit issues or pull requests to improve the functionality of this
 
 ## Contact
 
-For any inquiries, contact the maintainer at [your email address].
+For any inquiries, contact me at samirasimha.r@gmail.com.
